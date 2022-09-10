@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+  --font-base: 'DM Sans', sans-serif;
+  --primary-color: #edf2f8;
+  --secondary-color: #313bac;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #6b7688;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: var(--font-base);
+  font-weight: 400;
+  line-height: 1.6;
+
+  font-size: 1.6rem;
+  min-height: 100vh;
+  background-color: var(--primary-color);
+  padding: 8rem;
+}
+
+/* Changing the style of selected text */
+::selection {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}

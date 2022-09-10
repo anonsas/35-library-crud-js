@@ -1,0 +1,35 @@
+.main {
+  padding: 2rem;
+  border: 2px solid #000;
+}
+
+.library > h2 {
+  margin-bottom: 2rem;
+}
+
+#library-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  align-items: flex-start;
+}
+
+.books > h2 {
+  margin: 2rem 0;
+}
+
+#library-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.list__item {
+  display: flex;
+  column-gap: 4rem;
+}
+
+.list__item--content {
+  display: flex;
+  column-gap: 2rem;
+}
